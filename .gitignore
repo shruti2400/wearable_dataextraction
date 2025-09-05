@@ -1,0 +1,10 @@
+# Ignore virtual environment
+env/
+__pycache__/
+
+# Logs
+logs/
+*.log
+
+# Chrome / browser binaries
+linux_browser/
