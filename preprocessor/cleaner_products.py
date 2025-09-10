@@ -189,6 +189,16 @@ def preprocess_product_file(file_path: str) -> pd.DataFrame:
                 fallback = 4.0
             df["rating"] = df["rating"].fillna(fallback)
 
+
+        if "title" in df.columns and "link" in df.columns:
+            df["title"] = df.apply(
+                lambda row: row["link"].rstrip("/").split("/")[-1].replace("-", " ").strip()
+                if (pd.isna(row["title"]) or str(row["title"]).strip() == "")
+                else row["title"],
+                axis=1
+            )
+
+
     # --- Ensure column order ---
     desired_order = [
         "brand", "category_id", "product_id", "title",

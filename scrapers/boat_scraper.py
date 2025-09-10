@@ -189,10 +189,23 @@ def extract_product_details(driver, wait, links, brand, category_id):
     for i, link in enumerate(links):
         try:
             driver.get(link)
+            driver.refresh()
             time.sleep(2)
             product_id = f"{category_id}_product_{i + 1}"
 
-            title = driver.find_element(By.CSS_SELECTOR, "h1").text.strip()
+            # ---- Title Extraction ----
+            # try:
+            #     title_element = WebDriverWait(driver, 20).until(
+            #         EC.visibility_of_element_located((By.TAG_NAME, "h1"))
+            #     )
+            #     title = title_element.text.strip()
+            # except Exception as e:
+            #     logger.warning(f"Title not found at {link} - {e}")
+            #     title = "title not found"
+            # --------------------------
+
+            
+            title = driver.find_element(By.CSS_SELECTOR, "h1").text.strip()    
             sale_price = driver.find_element(By.CSS_SELECTOR, "span.price--highlight.price--large").get_attribute("innerText").strip()
             main_price = driver.find_element(By.CSS_SELECTOR, "span.price--compare.line-through").get_attribute("innerText").strip()
             discount = driver.find_element(By.CSS_SELECTOR, "p.custom-saved-price").text.strip()
