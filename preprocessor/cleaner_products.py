@@ -101,9 +101,11 @@
 
 #     return df[desired_order]
 
+import re
 import random
 import pandas as pd
 from pathlib import Path
+
 
 def preprocess_product_file(file_path: str) -> pd.DataFrame:
     """
@@ -190,9 +192,21 @@ def preprocess_product_file(file_path: str) -> pd.DataFrame:
             df["rating"] = df["rating"].fillna(fallback)
 
 
+        # if "title" in df.columns and "link" in df.columns:
+        #     df["title"] = df.apply(
+        #         lambda row: row["link"].rstrip("/").split("/")[-1].replace("-", " ").strip()
+        #         if (pd.isna(row["title"]) or str(row["title"]).strip() == "")
+        #         else row["title"],
+        #         axis=1
+        #     )
+
         if "title" in df.columns and "link" in df.columns:
             df["title"] = df.apply(
-                lambda row: row["link"].rstrip("/").split("/")[-1].replace("-", " ").strip()
+                lambda row: re.sub(r"\s+", " ",                           # collapse spaces
+                                re.sub(r"(copy|%[0-9A-Fa-f]{2})", "", # remove "copy" & %XX patterns
+                                        row["link"].rstrip("/").split("/")[-1]
+                                        .replace("-", " ")))
+                .strip()
                 if (pd.isna(row["title"]) or str(row["title"]).strip() == "")
                 else row["title"],
                 axis=1
