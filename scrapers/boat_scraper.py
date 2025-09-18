@@ -64,7 +64,8 @@ def setup_driver():
     try:
         if system_platform == 'linux':
             chrome_path = "/usr/bin/google-chrome"
-            chromedriver_path = "/root/new_dataextraction/linux_browser/chromedriver/chromedriver"
+            # chromedriver_path = "/root/new_dataextraction/linux_browser/chromedriver/chromedriver"
+            chromedriver_path = "/usr/local/bin/chromedriver"
 
             if not os.path.exists(chrome_path) or not os.path.exists(chromedriver_path):
                 raise FileNotFoundError("Chrome or Chromedriver not found at expected paths.")
