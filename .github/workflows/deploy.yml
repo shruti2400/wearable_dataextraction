@@ -10,31 +10,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # Step 1: Checkout the repository
     - name: Checkout Repo
       uses: actions/checkout@v3
- 
+
+    # Step 2: Setup SSH
     - name: Setup SSH
       uses: webfactory/ssh-agent@v0.8.0
       with:
         ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
 
-- name: Clean VPS
-  run: |
-    ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
+    # Step 3: Clean existing containers and images on VPS
+    - name: Clean VPS
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
 docker rm -f flask-api || true
 docker rmi flask-api || true
 mkdir -p /root/flask-api
 EOF
 
-
+    # Step 4: Copy files to VPS
     - name: Copy Files to VPS
       run: |
         rsync -avz --delete ./ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/root/dataextraction
 
+    # Step 5: Build and run Docker container on VPS
     - name: Run Docker Container
       run: |
-        ssh ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
-          cd /root/dataextraction
-          docker build -t dataextraction .
-          docker run -d -p 5050:5050 --name dataextraction dataextraction
+        ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
+cd /root/dataextraction
+docker build -t flask-api .
+docker run -d -p 8000:8000 --name flask-api flask-api
 EOF
