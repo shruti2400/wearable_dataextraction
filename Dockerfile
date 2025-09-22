@@ -42,7 +42,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Step 9: Expose Flask Port
-EXPOSE 5050
+EXPOSE 8000
 
 # Step 10: Run App (production)
 # CMD ["gunicorn", "-b", "0.0.0.0:5000", "app:app"]
