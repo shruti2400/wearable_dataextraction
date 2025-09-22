@@ -23,11 +23,11 @@ jobs:
       # Step 3: Clean existing containers and images on VPS
       - name: Clean VPS
         run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} 'bash -s' << 'ENDSSH'
-docker rm -f flask-api || true
-docker rmi flask-api || true
-mkdir -p /root/flask-api
-ENDSSH
+          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'ENDSSH'
+            docker rm -f flask-api || true
+            docker rmi flask-api || true
+            mkdir -p /root/flask-api
+          ENDSSH
 
       # Step 4: Copy files to VPS
       - name: Copy Files to VPS
@@ -37,8 +37,8 @@ ENDSSH
       # Step 5: Build and run Docker container on VPS
       - name: Run Docker Container
         run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} 'bash -s' << 'ENDSSH'
-cd /root/dataextraction
-docker build -t flask-api .
-docker run -d -p 8000:8000 --name flask-api flask-api
-ENDSSH
+          ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'ENDSSH'
+            cd /root/dataextraction
+            docker build -t flask-api .
+            docker run -d -p 8000:8000 --name flask-api flask-api
+          ENDSSH
