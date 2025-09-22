@@ -181,6 +181,12 @@ def scrape_next():
 def home():
     return "<h2>Web Scraping API is live</h2><p>Use POST /scrape or /scrape-next</p>"
 
+# ----- Test Hello Endpoint -----
+@app.route("/hello", methods=["GET"])
+def hello():
+    return jsonify({"message": "Hello! Deployment is working."})
+
+
 # ----- Run App -----
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8000)
