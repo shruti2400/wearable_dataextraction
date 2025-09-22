@@ -1,182 +1,43 @@
 brand,category_id,product_id,title,price,main_price,discount,rating,link
-boat,category_1,category_1_product_1,airdopes supreme long playback earbuds,1499,5990,75,4.8,https://www.boat-lifestyle.com/products/airdopes-supreme-long-playback-earbuds
-boat,category_1,category_1_product_2,nirvana x wireless earbuds,2999,8990,67,4.6,https://www.boat-lifestyle.com/products/nirvana-x-wireless-earbuds
-boat,category_1,category_1_product_3,airdopes 131,999,2990,67,4.8,https://www.boat-lifestyle.com/products/airdopes-131
-boat,category_1,category_1_product_4,nirvana ion anc earbuds,1999,9990,80,4.9,https://www.boat-lifestyle.com/products/nirvana-ion-anc-earbuds
-boat,category_1,category_1_product_5,airdopes 280 anc wireless earbuds,1499,6999,79,4.5,https://www.boat-lifestyle.com/products/airdopes-280-anc-wireless-earbuds
-boat,category_1,category_1_product_6,airdopes alpha true wireless earbuds,999,3490,71,4.8,https://www.boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds
-boat,category_1,category_1_product_7,nirvana ion bluetooth wireless earbuds,1799,7990,77,4.9,https://www.boat-lifestyle.com/products/nirvana-ion-bluetooth-wireless-earbuds
-boat,category_1,category_1_product_8,airdopes 181 pro bluetooth earbuds,1399,4990,72,4.7,https://www.boat-lifestyle.com/products/airdopes-181-pro-bluetooth-earbuds
-boat,category_1,category_1_product_9,airdopes 121 pro plus earbuds,1499,4990,70,4.3,https://www.boat-lifestyle.com/products/airdopes-121-pro-plus-earbuds
-boat,category_1,category_1_product_10,airdopes 311 pro wireless earbuds,999,4990,80,4.6,https://www.boat-lifestyle.com/products/airdopes-311-pro-wireless-earbuds
-boat,category_1,category_1_product_11,airdopes 161,999,2490,60,4.8,https://www.boat-lifestyle.com/products/airdopes-161
-boat,category_1,category_1_product_12,airdopes 301,1599,4990,68,4.5,https://www.boat-lifestyle.com/products/airdopes-301
-boat,category_1,category_1_product_13,airdopes 71 long playback earbuds,1799,3990,55,4.9,https://www.boat-lifestyle.com/products/airdopes-71-long-playback-earbuds
-boat,category_1,category_1_product_14,airdopes 141,1099,4490,76,4.8,https://www.boat-lifestyle.com/products/airdopes-141
-boat,category_1,category_1_product_15,airdopes prime 701 anc wireless earbuds,2199,7990,72,4.7,https://www.boat-lifestyle.com/products/airdopes-prime-701-anc-wireless-earbuds
-boat,category_1,category_1_product_16,airdopes ultra pro long playback earbuds,1999,6990,71,4.8,https://www.boat-lifestyle.com/products/airdopes-ultra-pro-long-playback-earbuds
-boat,category_1,category_1_product_17,boat airdopes 161 metallic,999,2490,60,4.4,https://www.boat-lifestyle.com/products/boat-airdopes-161-metallic
-boat,category_1,category_1_product_18,airdopes loop,1999,7990,75,4.0,https://www.boat-lifestyle.com/products/airdopes-loop
-boat,category_1,category_1_product_19,airdopes ultra plus large playback earbuds,1559,4990,69,4.9,https://www.boat-lifestyle.com/products/airdopes-ultra-plus-large-playback-earbuds
-boat,category_1,category_1_product_21,airdopes 141 anc earbuds,1499,5990,75,4.7,https://www.boat-lifestyle.com/products/airdopes-141-anc-earbuds
-boat,category_1,category_1_product_22,airdopes 131 elite anc earbuds,1499,6990,79,4.6,https://www.boat-lifestyle.com/products/airdopes-131-elite-anc-earbuds
-boat,category_1,category_1_product_23,airdopes prime 511 wireless earbuds,1599,5990,73,4.8,https://www.boat-lifestyle.com/products/airdopes-prime-511-wireless-earbuds
-boat,category_1,category_1_product_24,trebel airdopes 141,1249,4490,72,5.0,https://www.boat-lifestyle.com/products/trebel-airdopes-141
-boat,category_1,category_1_product_25,airdopes ace,1399,3490,60,4.6,https://www.boat-lifestyle.com/products/airdopes-ace
-boat,category_1,category_1_product_26,boat airdopes 800 wireless earbuds with dolby audio asap%E2%84%A2 charge iwp%E2%84%A2 tech,1699,6490,74,4.7,https://www.boat-lifestyle.com/products/boat-airdopes-800-wireless-earbuds-with-dolby-audio-asap%E2%84%A2-charge-iwp%E2%84%A2-tech
-boat,category_1,category_1_product_27,airdopes prime 412 wireless earbuds,1399,4490,69,4.8,https://www.boat-lifestyle.com/products/airdopes-prime-412-wireless-earbuds
-boat,category_1,category_1_product_28,airdopes 111v2 wireless earbuds,1399,4990,72,4.8,https://www.boat-lifestyle.com/products/airdopes-111v2-wireless-earbuds
-boat,category_1,category_1_product_29,nirvana ivy pro wireless earbuds,4999,17990,72,4.6,https://www.boat-lifestyle.com/products/nirvana-ivy-pro-wireless-earbuds
-boat,category_1,category_1_product_30,airdopes 141 gen2 wireless earbuds,1099,3990,72,4.0,https://www.boat-lifestyle.com/products/airdopes-141-gen2-wireless-earbuds
-boat,category_1,category_1_product_31,boat airdopes 138 wireless earbuds 1,1399,2990,53,4.9,https://www.boat-lifestyle.com/products/boat-airdopes-138-wireless-earbuds-1
-boat,category_1,category_1_product_32,airdopes 91 long playback earbuds,999,3990,75,4.9,https://www.boat-lifestyle.com/products/airdopes-91-long-playback-earbuds
-boat,category_1,category_1_product_33,airdopes 219 wireless earbuds,1099,3990,72,4.7,https://www.boat-lifestyle.com/products/airdopes-219-wireless-earbuds
-boat,category_1,category_1_product_34,airdopes 161 anc wireless earbuds,1499,5999,75,4.7,https://www.boat-lifestyle.com/products/airdopes-161-anc-wireless-earbuds
-boat,category_1,category_1_product_35,boat airdopes 163 wireless earbuds,1459,2490,41,4.8,https://www.boat-lifestyle.com/products/boat-airdopes-163-wireless-earbuds
-boat,category_1,category_1_product_36,nirvana crystl wireless earbuds,2499,10990,77,4.7,https://www.boat-lifestyle.com/products/nirvana-crystl-wireless-earbuds
-boat,category_1,category_1_product_37,airdopes 131 gen 2 true wireless earbuds,999,3990,75,4.8,https://www.boat-lifestyle.com/products/airdopes-131-gen-2-true-wireless-earbuds
-boat,category_1,category_1_product_38,airdopes 800 hi def,2299,7490,69,4.6,https://www.boat-lifestyle.com/products/airdopes-800-hi-def
-boat,category_1,category_1_product_39,airdopes 120 wireless earbuds,1599,4990,68,4.5,https://www.boat-lifestyle.com/products/airdopes-120-wireless-earbuds
-boat,category_1,category_1_product_40,airdopes 161 pro buds,1499,4490,67,4.8,https://www.boat-lifestyle.com/products/airdopes-161-pro-buds
-boat,category_1,category_1_product_41,immortal 201 gaming earbuds,2999,3499,14,4.9,https://www.boat-lifestyle.com/products/immortal-201-gaming-earbuds
-boat,category_1,category_1_product_42,boat nirvana space wireless earbuds with anc,2499,7999,69,4.8,https://www.boat-lifestyle.com/products/boat-nirvana-space-wireless-earbuds-with-anc
-boat,category_1,category_1_product_43,airdopes 161 anc elite earbuds,1499,6999,79,4.7,https://www.boat-lifestyle.com/products/airdopes-161-anc-elite-earbuds
-boat,category_1,category_1_product_44,airdopes 213 wireless earbuds,2999,3290,9,4.8,https://www.boat-lifestyle.com/products/airdopes-213-wireless-earbuds
-boat,category_1,category_1_product_45,airdopes 138 pro bluetooth earbuds,1599,2990,47,4.8,https://www.boat-lifestyle.com/products/airdopes-138-pro-bluetooth-earbuds
-boat,category_1,category_1_product_46,boat airdopes alpha gen 2 true wireless earbuds,1099,3990,72,4.8,https://www.boat-lifestyle.com/products/boat-airdopes-alpha-gen-2-true-wireless-earbuds
-boat,category_1,category_1_product_47,airdopes 207 wireless earbuds,2599,4990,48,4.4,https://www.boat-lifestyle.com/products/airdopes-207-wireless-earbuds
-boat,category_1,category_1_product_48,nirvana iris anc earbuds,3699,9990,63,4.7,https://www.boat-lifestyle.com/products/nirvana-iris-anc-earbuds
-boat,category_1,category_1_product_49,airdopes 91 prime long playback earbuds,999,3990,75,5.0,https://www.boat-lifestyle.com/products/airdopes-91-prime-long-playback-earbuds
-boat,category_1,category_1_product_50,airdopes 141 elite anc wireless earbuds,1499,5990,75,5.0,https://www.boat-lifestyle.com/products/airdopes-141-elite-anc-wireless-earbuds
-boat,category_1,category_1_product_51,boat airdopes 148,1399,4490,69,5.0,https://www.boat-lifestyle.com/products/boat-airdopes-148
-boat,category_1,category_1_product_52,boat airdopes 118 earbuds with 13mm drivers beast%E2%84%A2 mode for gamers enx%E2%84%A2 technology,2499,2990,16,4.8,https://www.boat-lifestyle.com/products/boat-airdopes-118-earbuds-with-13mm-drivers-beast%E2%84%A2-mode-for-gamers-enx%E2%84%A2-technology
-boat,category_1,category_1_product_53,nirvana ivy wireless earbuds,3299,17999,82,4.5,https://www.boat-lifestyle.com/products/nirvana-ivy-wireless-earbuds
-boat,category_1,category_1_product_54,boat airdopes 212 wireless earbuds,999,3290,70,4.8,https://www.boat-lifestyle.com/products/boat-airdopes-212-wireless-earbuds
-boat,category_1,category_1_product_55,airdopes atom 81 pro long playback earbuds,1499,3990,62,4.6,https://www.boat-lifestyle.com/products/airdopes-atom-81-pro-long-playback-earbuds
-boat,category_1,category_1_product_56,boat airdopes atom 83 earbuds,1199,3490,66,4.8,https://www.boat-lifestyle.com/products/boat-airdopes-atom-83-earbuds
-boat,category_1,category_1_product_57,airdopes 313 wireless earbuds,1299,3990,67,4.8,https://www.boat-lifestyle.com/products/airdopes-313-wireless-earbuds
-boat,category_1,category_1_product_58,boat airdopes 191 anc wireless earbuds with anc up to 32db quad mics enx%E2%84%A2 tech bluetooth v5 3,2299,6990,67,4.7,https://www.boat-lifestyle.com/products/boat-airdopes-191-anc-wireless-earbuds-with-anc-up-to-32db-quad-mics-enx%E2%84%A2-tech-bluetooth-v5-3
-boat,category_1,category_1_product_59,airdopes 393 anc bluetooth earbuds,3999,4990,20,5.0,https://www.boat-lifestyle.com/products/airdopes-393-anc-bluetooth-earbuds
-boat,category_1,category_1_product_60,airdopes 161 thor edition,1099,2490,56,4.9,https://www.boat-lifestyle.com/products/airdopes-161-thor-edition
-boat,category_1,category_1_product_61,airdopes plus 318 bluetooth wireless earbuds,1699,4990,66,4.0,https://www.boat-lifestyle.com/products/airdopes-plus-318-bluetooth-wireless-earbuds
-boat,category_1,category_1_product_62,nirvana ion anc pro earbuds,2799,13990,80,4.5,https://www.boat-lifestyle.com/products/nirvana-ion-anc-pro-earbuds
-boat,category_1,category_1_product_63,airdopes 300 large playback earbuds,1499,6490,77,4.8,https://www.boat-lifestyle.com/products/airdopes-300-large-playback-earbuds
-boat,category_1,category_1_product_64,boat airdopes plus 311 wireless earbuds,1099,3990,72,4.0,https://www.boat-lifestyle.com/products/boat-airdopes-plus-311-wireless-earbuds
-boat,category_1,category_1_product_65,immortal airspeed pro gaming earbuds,1999,6990,71,4.5,https://www.boat-lifestyle.com/products/immortal-airspeed-pro-gaming-earbuds
-boat,category_1,category_1_product_66,airdopes bliss wireless anc earbuds,2299,5990,62,4.6,https://www.boat-lifestyle.com/products/airdopes-bliss-wireless-anc-earbuds
-boat,category_1,category_1_product_67,boat nirvana ivy dhruv kapoor edition,2999,4999,40,4.8,https://www.boat-lifestyle.com/products/boat-nirvana-ivy-dhruv-kapoor-edition
-boat,category_1,category_1_product_68,airdopes 161 hulk edition,1119,2490,55,4.8,https://www.boat-lifestyle.com/products/airdopes-161-hulk-edition
-boat,category_1,category_1_product_69,boat airdopes 192,2069,3490,41,4.7,https://www.boat-lifestyle.com/products/boat-airdopes-192
-boat,category_1,category_1_product_70,airdopes 458,3299,4990,34,4.8,https://www.boat-lifestyle.com/products/airdopes-458
-boat,category_1,category_1_product_71,boat immortal 121 bluetooth gaming earbuds,1599,3490,54,4.8,https://www.boat-lifestyle.com/products/boat-immortal-121-bluetooth-gaming-earbuds
-boat,category_1,category_1_product_72,immortal 111 gaming earbuds,1299,3499,63,5.0,https://www.boat-lifestyle.com/products/immortal-111-gaming-earbuds
-boat,category_1,category_1_product_73,airdopes 411 anc,1999,4990,60,4.8,https://www.boat-lifestyle.com/products/airdopes-411-anc
-boat,category_1,category_1_product_74,airdopes joy wireless earbuds,2299,4999,54,4.8,https://www.boat-lifestyle.com/products/airdopes-joy-wireless-earbuds
-boat,category_1,category_1_product_75,boat airdopes 181,1599,2990,47,4.9,https://www.boat-lifestyle.com/products/boat-airdopes-181
-boat,category_1,category_1_product_76,immortal 100 gaming earbuds,1249,3299,62,4.5,https://www.boat-lifestyle.com/products/immortal-100-gaming-earbuds
-boat,category_1,category_1_product_77,boat airdopes 170 wireless earbuds,1599,3490,54,4.9,https://www.boat-lifestyle.com/products/boat-airdopes-170-wireless-earbuds
-boat,category_1,category_1_product_78,airdopes crude wireless earbuds,1339,4990,73,4.8,https://www.boat-lifestyle.com/products/airdopes-crude-wireless-earbuds
-boat,category_1,category_1_product_79,boat airdopes 411 anc netflix stream edition,2499,4990,50,5.0,https://www.boat-lifestyle.com/products/boat-airdopes-411-anc-netflix-stream-edition
-boat,category_1,category_1_product_80,airdopes 131 superman edition,1099,2990,63,5.0,https://www.boat-lifestyle.com/products/airdopes-131-superman-edition
-boat,category_1,category_1_product_81,airdopes 131 dc edition earbuds online,1099,2990,63,5.0,https://www.boat-lifestyle.com/products/airdopes-131-dc-edition-earbuds-online
-boat,category_1,category_1_product_82,airdopes flex 454 noise cancelling earbud,1799,9999,82,4.9,https://www.boat-lifestyle.com/products/airdopes-flex-454-noise-cancelling-earbud
-boat,category_1,category_1_product_83,airdopes 155 long playback earbuds,2099,5490,62,4.9,https://www.boat-lifestyle.com/products/airdopes-155-long-playback-earbuds
-boat,category_1,category_1_product_84,immortal 128 gaming earbuds,1499,3490,57,4.8,https://www.boat-lifestyle.com/products/immortal-128-gaming-earbuds
-boat,category_1,category_1_product_85,boat airdopes 121 pro earbuds with easy touch control,999,2990,67,4.9,https://www.boat-lifestyle.com/products/boat-airdopes-121-pro-earbuds-with-easy-touch-control
-boat,category_1,category_1_product_86,airdopes sonik long playback earbuds,2199,5990,63,4.8,https://www.boat-lifestyle.com/products/airdopes-sonik-long-playback-earbuds
-boat,category_1,category_1_product_87,airdopes 115 wireless bluetooth earbuds,1899,2990,36,4.9,https://www.boat-lifestyle.com/products/airdopes-115-wireless-bluetooth-earbuds
-boat,category_1,category_1_product_88,boat airdopes 183 wireless bluetooth earbuds,1299,2990,57,5.0,https://www.boat-lifestyle.com/products/boat-airdopes-183-wireless-bluetooth-earbuds
-boat,category_1,category_1_product_89,airdopes 190 wireless earbuds,1299,3499,63,4.9,https://www.boat-lifestyle.com/products/airdopes-190-wireless-earbuds
-boat,category_1,category_1_product_90,airdopes 381,2499,4990,50,4.8,https://www.boat-lifestyle.com/products/airdopes-381
-boat,category_1,category_1_product_91,boat airdopes 141 gen 2 wireless earbuds with 48 hours playback beast%E2%84%A2 mode dual eqs enx%E2%84%A2 tech copy,1199,3990,70,4.8,https://www.boat-lifestyle.com/products/boat-airdopes-141-gen-2-wireless-earbuds-with-48-hours-playback-beast%E2%84%A2-mode-dual-eqs-enx%E2%84%A2-tech-copy
-boat,category_1,category_1_product_92,airdopes 101v2 wireless earbuds,999,3990,75,4.8,https://www.boat-lifestyle.com/products/airdopes-101v2-wireless-earbuds
-boat,category_1,category_1_product_93,nirvana zenith pro wireless headphones,2999,14990,80,4.7,https://www.boat-lifestyle.com/products/nirvana-zenith-pro-wireless-headphones
-boat,category_1,category_1_product_94,airdopes 141 pro buds,899,4990,82,5.0,https://www.boat-lifestyle.com/products/airdopes-141-pro-buds
-boat,category_1,category_1_product_96,boat nirvana lucid,2799,9999,72,5.0,https://www.boat-lifestyle.com/products/boat-nirvana-lucid
-boat,category_1,category_1_product_97,airdopes drift wireless earbuds,1699,3490,51,4.9,https://www.boat-lifestyle.com/products/airdopes-drift-wireless-earbuds
-boat,category_1,category_1_product_98,boat nirvana ion anc limited edition wireless earbuds with active noise cancellation enx%E2%84%A2 technology 120 hours playback beast%E2%84%A2 mode,2699,11999,78,4.8,https://www.boat-lifestyle.com/products/boat-nirvana-ion-anc-limited-edition-wireless-earbuds-with-active-noise-cancellation-enx%E2%84%A2-technology-120-hours-playback-beast%E2%84%A2-mode
-boat,category_1,category_1_product_99,boat airdopes progear,1999,6990,71,4.4,https://www.boat-lifestyle.com/products/boat-airdopes-progear
-boat,category_1,category_1_product_100,airdopes alpha deadpool edition,1099,3490,69,4.7,https://www.boat-lifestyle.com/products/airdopes-alpha-deadpool-edition
-boat,category_1,category_1_product_101,immortal 158 gaming earbuds,1399,3499,60,4.7,https://www.boat-lifestyle.com/products/immortal-158-gaming-earbuds
-boat,category_1,category_1_product_102,nirvana zenith anc earbuds,3999,17990,78,4.8,https://www.boat-lifestyle.com/products/nirvana-zenith-anc-earbuds
-boat,category_1,category_1_product_103,nirvana nebula anc earbuds,2999,12990,77,4.8,https://www.boat-lifestyle.com/products/nirvana-nebula-anc-earbuds
-boat,category_1,category_1_product_104,nirvana ion anc special edition earbuds,2699,11990,77,4.7,https://www.boat-lifestyle.com/products/nirvana-ion-anc-special-edition-earbuds
-boat,category_1,category_1_product_105,airdopes 121v2 plus earbuds,1599,4990,68,4.8,https://www.boat-lifestyle.com/products/airdopes-121v2-plus-earbuds
-boat,category_1,category_1_product_106,airdopes unity anc bluetooth earbuds,1799,5999,70,4.8,https://www.boat-lifestyle.com/products/airdopes-unity-anc-bluetooth-earbuds
-boat,category_1,category_1_product_107,immortal 121 deadpool edition gaming earbuds,1699,3999,58,4.7,https://www.boat-lifestyle.com/products/immortal-121-deadpool-edition-gaming-earbuds
-boat,category_1,category_1_product_108,immortal 121 hulk edition gaming earbuds,1699,3999,58,4.8,https://www.boat-lifestyle.com/products/immortal-121-hulk-edition-gaming-earbuds
-boat,category_1,category_1_product_109,immortal katana blade gaming earbuds,2299,3999,43,4.8,https://www.boat-lifestyle.com/products/immortal-katana-blade-gaming-earbuds
-boat,category_1,category_1_product_110,airdopes 200 plus large playback earbuds,1599,5490,71,4.7,https://www.boat-lifestyle.com/products/airdopes-200-plus-large-playback-earbuds
-boat,category_1,category_1_product_111,immortal 125 gaming earbuds,1799,3499,49,4.6,https://www.boat-lifestyle.com/products/immortal-125-gaming-earbuds
-boat,category_1,category_1_product_112,airdopes 161 deadpool edition,1199,2490,52,4.9,https://www.boat-lifestyle.com/products/airdopes-161-deadpool-edition
-boat,category_1,category_1_product_113,immortal 181 gaming earbuds,1299,3499,63,4.8,https://www.boat-lifestyle.com/products/immortal-181-gaming-earbuds
-boat,category_1,category_1_product_114,immortal 170 gaming earbuds,1849,3499,47,4.7,https://www.boat-lifestyle.com/products/immortal-170-gaming-earbuds
-boat,category_1,category_1_product_115,immortal 101 true wireless gaming earbuds,1599,3299,52,4.8,https://www.boat-lifestyle.com/products/immortal-101-true-wireless-gaming-earbuds
-boat,category_1,category_1_product_116,immortal 161 gaming earbuds,1299,3499,63,4.9,https://www.boat-lifestyle.com/products/immortal-161-gaming-earbuds
-boat,category_1,category_1_product_117,airdopes 161 pro wireless bluetooth earbuds,1169,4990,77,4.9,https://www.boat-lifestyle.com/products/airdopes-161-pro-wireless-bluetooth-earbuds
-boat,category_1,category_1_product_118,immortal 171 wireless gaming earbuds,1349,3499,61,4.8,https://www.boat-lifestyle.com/products/immortal-171-wireless-gaming-earbuds
-boat,category_1,category_1_product_119,airdopes immortal 141 gaming earbuds,2299,3499,34,5.0,https://www.boat-lifestyle.com/products/airdopes-immortal-141-gaming-earbuds
-boat,category_1,category_1_product_120,airdopes max wireless earbuds,1499,5490,73,5.0,https://www.boat-lifestyle.com/products/airdopes-max-wireless-earbuds
-boat,category_1,category_1_product_121,airdopes 141 neo wireless earbuds,1400,3990,65,4.5,https://www.boat-lifestyle.com/products/airdopes-141-neo-wireless-earbuds
-boat,category_1,category_1_product_122,airdopes hype long playback earbuds,1699,5490,69,4.5,https://www.boat-lifestyle.com/products/airdopes-hype-long-playback-earbuds
-boat,category_1,category_1_product_123,airdopes kick long playback earbuds,1159,4990,77,5.0,https://www.boat-lifestyle.com/products/airdopes-kick-long-playback-earbuds
-boat,category_1,category_1_product_124,airdopes zing long playback earbuds,1699,3490,51,4.9,https://www.boat-lifestyle.com/products/airdopes-zing-long-playback-earbuds
-boat,category_1,category_1_product_125,immortal 150 gaming earbuds,1299,3499,63,4.9,https://www.boat-lifestyle.com/products/immortal-150-gaming-earbuds
-boat,category_1,category_1_product_127,airdopes genesis large playback earbuds,1999,3999,50,4.8,https://www.boat-lifestyle.com/products/airdopes-genesis-large-playback-earbuds
-boat,category_1,category_1_product_128,airdopes fuel premium wireless earbuds,1699,4990,66,4.5,https://www.boat-lifestyle.com/products/airdopes-fuel-premium-wireless-earbuds
-boat,category_1,category_1_product_129,boat airdopes 311v2,1299,3490,63,4.0,https://www.boat-lifestyle.com/products/boat-airdopes-311v2
-boat,category_1,category_1_product_130,airdopes 418 anc noise cancelling earbuds with 10mm drivers asaptm charge technology up to 25db anc enx technology 17 5 hours playback,1899,4990,62,5.0,https://www.boat-lifestyle.com/products/airdopes-418-anc-noise-cancelling-earbuds-with-10mm-drivers-asaptm-charge-technology-up-to-25db-anc-enx-technology-17-5-hours-playback
-boat,category_1,category_1_product_131,airdopes 138 dc edition wireless earbuds,1299,2990,57,5.0,https://www.boat-lifestyle.com/products/airdopes-138-dc-edition-wireless-earbuds
-boat,category_1,category_1_product_132,boat immortal 131 wireless gaming earbuds,999,3490,71,4.9,https://www.boat-lifestyle.com/products/boat-immortal-131-wireless-gaming-earbuds
-boat,category_1,category_1_product_133,airdopes atom 81 long playback earbuds,1599,3490,54,4.8,https://www.boat-lifestyle.com/products/airdopes-atom-81-long-playback-earbuds
-boat,category_1,category_1_product_134,airdopes 100 wireless earbuds,1099,3490,69,4.7,https://www.boat-lifestyle.com/products/airdopes-100-wireless-earbuds
-boat,category_1,category_1_product_135,airdopes 172 wireless earbuds,999,3490,71,5.0,https://www.boat-lifestyle.com/products/airdopes-172-wireless-earbuds
-boat,category_1,category_1_product_136,airdopes 381 mki wireless earbuds,2999,4990,40,4.8,https://www.boat-lifestyle.com/products/airdopes-381-mki-wireless-earbuds
-boat,category_1,category_1_product_137,boat airdopes 113 wireless gaming earbuds,1299,2990,57,4.7,https://www.boat-lifestyle.com/products/boat-airdopes-113-wireless-gaming-earbuds
-boat,category_1,category_1_product_138,boat airdopes 383 sunburn edition,999,4999,80,4.6,https://www.boat-lifestyle.com/products/boat-airdopes-383-sunburn-edition
-boat,category_1,category_1_product_139,boat airdopes 141 pro earbuds,1599,2990,47,4.9,https://www.boat-lifestyle.com/products/boat-airdopes-141-pro-earbuds
-boat,category_1,category_1_product_140,boat airdopes 283 true wireless earbuds,2499,4999,50,4.8,https://www.boat-lifestyle.com/products/boat-airdopes-283-true-wireless-earbuds
-boat,category_1,category_1_product_141,boat airdopes 413 anc,1299,4990,74,5.0,https://www.boat-lifestyle.com/products/boat-airdopes-413-anc
-boat,category_1,category_1_product_142,boat airdopes 131 pro true wireless earbuds,1099,2990,63,4.9,https://www.boat-lifestyle.com/products/boat-airdopes-131-pro-true-wireless-earbuds
-boat,category_1,category_1_product_143,airdopes 131 wonder woman dc edition,899,2990,70,5.0,https://www.boat-lifestyle.com/products/airdopes-131-wonder-woman-dc-edition
-boat,category_1,category_1_product_144,airdopes 131 batman dc edition,1099,2990,63,4.9,https://www.boat-lifestyle.com/products/airdopes-131-batman-dc-edition
-boat,category_1,category_1_product_145,airdopes 441 pro dc edition,3199,6990,54,5.0,https://www.boat-lifestyle.com/products/airdopes-441-pro-dc-edition
-boat,category_1,category_1_product_146,boat airdopes 191g true wireless gaming earbuds,1399,3490,60,4.9,https://www.boat-lifestyle.com/products/boat-airdopes-191g-true-wireless-gaming-earbuds
-boat,category_1,category_1_product_147,boat airdopes 175,1699,2990,43,4.9,https://www.boat-lifestyle.com/products/boat-airdopes-175
-boat,category_1,category_1_product_148,airdopes 500 anc,999,9999,90,5.0,https://www.boat-lifestyle.com/products/airdopes-500-anc
-boat,category_1,category_1_product_149,boat airdopes 381 sunburn edition,999,4999,80,5.0,https://www.boat-lifestyle.com/products/boat-airdopes-381-sunburn-edition
-boat,category_1,category_1_product_150,boat airdopes 441 sunburn edition,2499,5999,58,5.0,https://www.boat-lifestyle.com/products/boat-airdopes-441-sunburn-edition
-boat,category_1,category_1_product_151,131 black panther,999,2990,67,5.0,https://www.boat-lifestyle.com/products/131-black-panther
-boat,category_1,category_1_product_152,131 iron man,999,2990,67,4.9,https://www.boat-lifestyle.com/products/131-iron-man
-boat,category_1,category_1_product_153,131 captain america,1599,2990,47,4.9,https://www.boat-lifestyle.com/products/131-captain-america
-boat,category_1,category_1_product_154,airdopes 441 made in india,2499,5999,58,4.7,https://www.boat-lifestyle.com/products/airdopes-441-made-in-india
-boat,category_1,category_1_product_155,airdopes 452,1699,4990,66,5.0,https://www.boat-lifestyle.com/products/airdopes-452
-boat,category_1,category_1_product_156,airdopes 391,999,4990,80,5.0,https://www.boat-lifestyle.com/products/airdopes-391
-boat,category_1,category_1_product_157,boat airdopes 408 wireless earbuds,999,5990,83,5.0,https://www.boat-lifestyle.com/products/boat-airdopes-408-wireless-earbuds
-boat,category_1,category_1_product_158,airdopes 501 anc,3979,9990,60,5.0,https://www.boat-lifestyle.com/products/airdopes-501-anc
-boat,category_1,category_1_product_159,boat airdopes 433 truly wireless earbuds,1999,5999,67,4.5,https://www.boat-lifestyle.com/products/boat-airdopes-433-truly-wireless-earbuds
-boat,category_1,category_1_product_160,airdopes 101 made in india,1199,2990,60,4.9,https://www.boat-lifestyle.com/products/airdopes-101-made-in-india
-boat,category_1,category_1_product_161,airdopes 281 pro,2499,6990,64,4.9,https://www.boat-lifestyle.com/products/airdopes-281-pro
-boat,category_1,category_1_product_162,airdopes 641,2999,6990,57,4.9,https://www.boat-lifestyle.com/products/airdopes-641
-boat,category_1,category_1_product_163,airdopes 131 rcb edition,1299,2990,57,5.0,https://www.boat-lifestyle.com/products/airdopes-131-rcb-edition
-boat,category_1,category_1_product_164,airdopes 131 kkr edition,1099,2990,63,5.0,https://www.boat-lifestyle.com/products/airdopes-131-kkr-edition
-boat,category_1,category_1_product_165,airdopes 441 kkr edition,2499,5999,58,5.0,https://www.boat-lifestyle.com/products/airdopes-441-kkr-edition
-boat,category_1,category_1_product_166,airdopes 621,2999,7990,62,4.9,https://www.boat-lifestyle.com/products/airdopes-621
-boat,category_1,category_1_product_167,boat airdopes 111,1349,2999,55,4.8,https://www.boat-lifestyle.com/products/boat-airdopes-111
-boat,category_1,category_1_product_168,airdopes 121 v2,1099,2999,63,4.8,https://www.boat-lifestyle.com/products/airdopes-121-v2
-boat,category_1,category_1_product_169,airdopes 383,2499,4990,50,4.7,https://www.boat-lifestyle.com/products/airdopes-383
-boat,category_1,category_1_product_170,airdopes 711,4999,11990,58,5.0,https://www.boat-lifestyle.com/products/airdopes-711
-boat,category_1,category_1_product_171,airdopes 173,2099,5999,65,5.0,https://www.boat-lifestyle.com/products/airdopes-173
-boat,category_1,category_1_product_172,airdopes 461,2999,7990,62,4.6,https://www.boat-lifestyle.com/products/airdopes-461
-boat,category_1,category_1_product_173,airdopes 443,2699,5999,55,4.8,https://www.boat-lifestyle.com/products/airdopes-443
-boat,category_1,category_1_product_174,airdopes 441 pro,999,5999,83,4.7,https://www.boat-lifestyle.com/products/airdopes-441-pro
-boat,category_1,category_1_product_175,airdopes 402,1499,5990,75,4.8,https://www.boat-lifestyle.com/products/airdopes-402
-boat,category_1,category_1_product_176,airdopes 511 v2,2999,6999,57,4.6,https://www.boat-lifestyle.com/products/airdopes-511-v2
-boat,category_1,category_1_product_177,airdopes 171,999,5999,83,4.8,https://www.boat-lifestyle.com/products/airdopes-171
-boat,category_1,category_1_product_178,airdopes 431,999,5999,83,4.8,https://www.boat-lifestyle.com/products/airdopes-431
-boat,category_1,category_1_product_179,airdopes 281,2299,4999,54,4.7,https://www.boat-lifestyle.com/products/airdopes-281
-boat,category_1,category_1_product_180,airdopes 491,999,6990,86,5.0,https://www.boat-lifestyle.com/products/airdopes-491
-boat,category_1,category_1_product_181,airdopes 601 anc,4999,9990,50,4.8,https://www.boat-lifestyle.com/products/airdopes-601-anc
-boat,category_1,category_1_product_182,airdopes 441,2499,5999,58,4.9,https://www.boat-lifestyle.com/products/airdopes-441
-boat,category_1,category_1_product_183,airdopes 201,1999,3999,50,4.8,https://www.boat-lifestyle.com/products/airdopes-201
-boat,category_1,category_1_product_184,airdopes 451v2,2999,5999,50,4.8,https://www.boat-lifestyle.com/products/airdopes-451v2
+boat,category_1,category_1_product_1,,"Sale price
+₹1,499","Regular price
+₹5,990.00",75% Off,4.8,https://www.boat-lifestyle.com/products/airdopes-supreme-long-playback-earbuds
+boat,category_1,category_1_product_2,,"Sale price
+₹2,999","Regular price
+₹8,990.00",67% Off,4.6,https://www.boat-lifestyle.com/products/nirvana-x-wireless-earbuds
+boat,category_1,category_1_product_3,,"Sale price
+₹699","Regular price
+₹2,990.00",77% Off,4.8,https://www.boat-lifestyle.com/products/airdopes-131
+boat,category_1,category_1_product_4,,"Sale price
+₹1,999","Regular price
+₹9,990.00",80% Off,4.9,https://www.boat-lifestyle.com/products/nirvana-ion-anc-earbuds
+boat,category_1,category_1_product_5,,"Sale price
+₹1,499","Regular price
+₹6,999.00",79% Off,4.5,https://www.boat-lifestyle.com/products/airdopes-280-anc-wireless-earbuds
+boat,category_1,category_1_product_6,,"Sale price
+₹999","Regular price
+₹3,490.00",71% Off,4.8,https://www.boat-lifestyle.com/products/airdopes-alpha-true-wireless-earbuds
+boat,category_1,category_1_product_7,,"Sale price
+₹1,799","Regular price
+₹7,990.00",77% Off,4.9,https://www.boat-lifestyle.com/products/nirvana-ion-bluetooth-wireless-earbuds
+boat,category_1,category_1_product_8,,"Sale price
+₹1,399","Regular price
+₹4,990.00",72% Off,4.7,https://www.boat-lifestyle.com/products/airdopes-181-pro-bluetooth-earbuds
+boat,category_1,category_1_product_9,,"Sale price
+₹1,499","Regular price
+₹4,990.00",70% Off,4.3,https://www.boat-lifestyle.com/products/airdopes-121-pro-plus-earbuds
+boat,category_1,category_1_product_10,,"Sale price
+₹899","Regular price
+₹4,990.00",82% Off,4.6,https://www.boat-lifestyle.com/products/airdopes-311-pro-wireless-earbuds
+boat,category_1,category_1_product_11,,"Sale price
+₹999","Regular price
+₹2,490.00",60% Off,4.8,https://www.boat-lifestyle.com/products/airdopes-161
+boat,category_1,category_1_product_12,,"Sale price
+₹1,599","Regular price
+₹4,990.00",68% Off,4.5,https://www.boat-lifestyle.com/products/airdopes-301
+boat,category_1,category_1_product_13,,"Sale price
+₹1,799","Regular price
+₹3,990.00",55% Off,4.9,https://www.boat-lifestyle.com/products/airdopes-71-long-playback-earbuds
+boat,category_1,category_1_product_14,,"Sale price
+₹999","Regular price
+₹2,490.00",60% Off,4.4,https://www.boat-lifestyle.com/products/boat-airdopes-161-metallic

@@ -1,0 +1,42 @@
+name: Deploy Flask API to VPS
+
+
+on: 
+  push:
+    branches:
+      - dataextraction_v1
+
+jobs:
+  deploy:/
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v3
+ 
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.8.0
+      with:
+        ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
+
+    - name: Deploy to VPS
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
+          docker rm -f flask-api || true
+          docker rmi flask-api || true
+          mkdir -p /root/flask-api
+          exit
+EOF
+
+    - name: Copy Files to VPS
+      run: |
+        rsync -avz --delete ./ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/root/dataextraction
+
+    - name: Run Docker Container
+      run: |
+        ssh ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'EOF'
+          cd /root/dataextraction
+          docker build -t dataextraction .
+          docker run -d -p 5050:5050 --name dataextraction dataextraction
+EOF
+
