@@ -1,26 +1,26 @@
 name: Deploy Flask API to VPS
-
-on: 
+ 
+on:
   push:
     branches:
       - dataextraction_v1
-
+ 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
+ 
     steps:
       # Step 1: Checkout the repository
       - name: Checkout Repo
         uses: actions/checkout@v3
-
+ 
       # Step 2: Setup SSH
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.8.0
         with:
           ssh-private-key: ${{ secrets.VPS_SSH_KEY }}
-
-      # Step 3: Clean existing containers and images on VPS
+ 
+      # Step 3: Clean existing container and image on VPS
       - name: Clean VPS
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'ENDSSH'
@@ -28,17 +28,17 @@ jobs:
             docker rmi flask-api || true
             mkdir -p /home/${{ secrets.VPS_USER }}/flask-api
           ENDSSH
-
-      # Step 4: Copy files to VPS
+ 
+      # Step 4: Copy project files to VPS
       - name: Copy Files to VPS
         run: |
-          rsync -avz --delete ./ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/home/${{ secrets.VPS_USER }}/dataextraction
-
+          rsync -avz --delete ./ ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/home/${{ secrets.VPS_USER }}/flask-api
+ 
       # Step 5: Build and run Docker container on VPS
       - name: Run Docker Container
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} << 'ENDSSH'
-            cd /home/${{ secrets.VPS_USER }}/dataextraction
+            cd /home/${{ secrets.VPS_USER }}/flask-api
             docker build -t flask-api .
             docker run -d -p 8000:8000 --name flask-api flask-api
           ENDSSH
