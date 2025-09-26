@@ -176,7 +176,7 @@ def scrape_next():
         logging.error(f"Scrape failed: {response_data.get_json()}")
         return jsonify({"error": "Scrape failed", "details": response_data.get_json()}), 500
 
-# ----- Health Check -----
+# --for checking 
 @app.route("/")
 def home():
     return "<h2>Web Scraping API is live</h2><p>Use POST /scrape or /scrape-next</p>"
