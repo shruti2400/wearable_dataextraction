@@ -176,6 +176,23 @@ def scrape_next():
         logging.error(f"Scrape failed: {response_data.get_json()}")
         return jsonify({"error": "Scrape failed", "details": response_data.get_json()}), 500
 
+
+# --- Endpoint: Get merged data folder path ---
+@app.route("/get-merged-path", methods=["GET"])
+def get_merged_path():
+    subdirs = {}
+    if os.path.exists(MERGED_FOLDER):
+        for name in os.listdir(MERGED_FOLDER):
+            full_path = os.path.join(MERGED_FOLDER, name)
+            if os.path.isdir(full_path):
+                subdirs[name] = full_path
+
+    return jsonify({
+        "merged_data_path": MERGED_FOLDER,
+        "subdirectories": subdirs
+    })
+
+
 # --for checking 
 @app.route("/")
 def home():
