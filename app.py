@@ -178,6 +178,22 @@ def scrape_next():
 
 
 # --- Endpoint: Get merged data folder path ---
+# @app.route("/get-merged-path", methods=["GET"])
+# def get_merged_path():
+#     subdirs = {}
+#     if os.path.exists(MERGED_FOLDER):
+#         for name in os.listdir(MERGED_FOLDER):
+#             full_path = os.path.join(MERGED_FOLDER, name)
+#             if os.path.isdir(full_path):
+#                 subdirs[name] = full_path
+
+#     return jsonify({
+#         "merged_data_path": MERGED_FOLDER,
+#         "subdirectories": subdirs
+#     })
+
+
+# --- Endpoint: Get merged data folder path ---
 @app.route("/get-merged-path", methods=["GET"])
 def get_merged_path():
     subdirs = {}
@@ -185,13 +201,20 @@ def get_merged_path():
         for name in os.listdir(MERGED_FOLDER):
             full_path = os.path.join(MERGED_FOLDER, name)
             if os.path.isdir(full_path):
-                subdirs[name] = full_path
+                files = {}
+                for fname in os.listdir(full_path):
+                    file_path = os.path.join(full_path, fname)
+                    if os.path.isfile(file_path):
+                        files[fname] = file_path
+                subdirs[name] = {
+                    "path": full_path,
+                    "files": files
+                }
 
     return jsonify({
         "merged_data_path": MERGED_FOLDER,
         "subdirectories": subdirs
     })
-
 
 # --for checking 
 @app.route("/")
