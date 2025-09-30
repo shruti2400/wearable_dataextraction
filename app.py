@@ -7,6 +7,7 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import sys
 
+from flask import Flask, jsonify, send_file, request, abort
 from preprocessor.cleaner_products import preprocess_product_file
 from preprocessor.cleaner_features import preprocess_feature_file
 from preprocessor.cleaner_faqs import preprocess_faq_file
@@ -178,22 +179,6 @@ def scrape_next():
 
 
 # --- Endpoint: Get merged data folder path ---
-# @app.route("/get-merged-path", methods=["GET"])
-# def get_merged_path():
-#     subdirs = {}
-#     if os.path.exists(MERGED_FOLDER):
-#         for name in os.listdir(MERGED_FOLDER):
-#             full_path = os.path.join(MERGED_FOLDER, name)
-#             if os.path.isdir(full_path):
-#                 subdirs[name] = full_path
-
-#     return jsonify({
-#         "merged_data_path": MERGED_FOLDER,
-#         "subdirectories": subdirs
-#     })
-
-
-# --- Endpoint: Get merged data folder path ---
 @app.route("/get-merged-path", methods=["GET"])
 def get_merged_path():
     subdirs = {}
@@ -215,6 +200,29 @@ def get_merged_path():
         "merged_data_path": MERGED_FOLDER,
         "subdirectories": subdirs
     })
+
+
+
+# ----- Endpoint: Download any CSV from merged_data -----
+@app.route("/download-csv", methods=["GET"])
+def download_csv():
+    file_type = request.args.get("file_type")  # e.g., boat_products.csv
+    if not file_type:
+        abort(400, description="Missing file_type parameter. Example: ?file_type=boat_products.csv")
+
+    # Loop through all merged subdirectories
+    target_path = None
+    for subdir_name, subdir_info in get_merged_path().get_json()["subdirectories"].items():
+        files = subdir_info.get("files", {})
+        if file_type in files:
+            target_path = files[file_type]
+            break
+
+    if not target_path or not os.path.isfile(target_path):
+        abort(404, description=f"{file_type} not found on server")
+
+    return send_file(target_path, mimetype="text/csv", as_attachment=True)
+
 
 # --for checking 
 @app.route("/")
