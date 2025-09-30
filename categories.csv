@@ -1,34 +1,34 @@
 brand,category_id,category_name,url,last_scraped
-boat,category_1,true wireless earbuds,https://www.boat-lifestyle.com/collections/true-wireless-earbuds,2025-09-10
-boat,category_2,personalized products,https://www.boat-lifestyle.com/collections/product-personalization,2025-09-10
-boat,category_3,neckbands,https://www.boat-lifestyle.com/collections/wireless-earphones,2025-09-10
-boat,category_4,smartwatches,https://www.boat-lifestyle.com/collections/smart-watches,2025-09-08
-boat,category_5,wireless headphones,https://www.boat-lifestyle.com/collections/bluetooth-wireless-headphones,2025-09-08
-boat,category_6,wireless speakers,https://www.boat-lifestyle.com/collections/wireless-speakers,2025-09-08
-boat,category_7,wired headphones,https://www.boat-lifestyle.com/collections/wired-headphones,2025-09-08
-boat,category_8,wired earphones,https://www.boat-lifestyle.com/collections/wired-earphones,2025-09-08
-boat,category_9,sound bars,https://www.boat-lifestyle.com/collections/home-audio,2025-09-08
-boat,category_10,gaming series,https://www.boat-lifestyle.com/collections/immortal-gaming,2025-09-08
-boat,category_11,party speakers,https://www.boat-lifestyle.com/collections/party-speakers,2025-09-08
-boat,category_12,chargers,https://www.boat-lifestyle.com/collections/chargers,2025-09-08
-boat,category_13,power banks,https://www.boat-lifestyle.com/collections/power-banks,2025-09-08
-boat,category_14,cables,https://www.boat-lifestyle.com/collections/cables,2025-09-08
-boat,category_15,superhero collection,https://www.boat-lifestyle.com/collections/boat-super-sale,2025-09-08
-boat,category_16,trebel for women,https://www.boat-lifestyle.com/collections/trebel-for-women,2025-09-08
-boat,category_17,limited edition,https://www.boat-lifestyle.com/collections/limited-edition,2025-09-08
-boat,category_18,boat tag,https://www.boat-lifestyle.com/collections/ble-tracker,2025-09-08
-boat,category_19,mobile accessories,https://www.boat-lifestyle.com/collections/mobile-accessories,2025-09-08
-noise,category_1,master buds,https://www.gonoise.com/collections/wireless-earbuds,2025-09-08
-noise,category_2,smartwatches,https://www.gonoise.com/collections/smart-watches,2025-09-08
-noise,category_3,wireless audio,https://www.gonoise.com/collections/wireless-audio,2025-09-08
-noise,category_4,power series,https://www.gonoise.com/collections/noise-power-series-gan-chargers,2025-09-08
-boult,category_1,true wireless earbuds,https://boultaudio.com/collections/true-wireless-bluetooth-earbuds-with-mic,2025-09-08
-boult,category_2,boult x mustang,https://boultaudio.com/collections/boult-mustang,2025-09-08
-boult,category_3,headphones,https://boultaudio.com/collections/over-ear-bluetooth-headphone-with-mic,2025-09-08
-boult,category_4,speakers,https://boultaudio.com/collections/wireless-bluetooth-speaker,2025-09-08
-boult,category_5,home audio,https://boultaudio.com/collections/home-audio,2025-09-08
-boult,category_6,smart watches,https://boultaudio.com/collections/smart-watches,2025-09-08
-boult,category_7,power banks,https://boultaudio.com/collections/powerbanks,2025-09-08
-boult,category_8,dashcams,https://boultaudio.com/collections/dashcam,2025-09-08
-boult,category_9,neckbands,https://boultaudio.com/collections/neckband-in-ear-bluetooth-headphone-with-mic,2025-09-08
-boult,category_10,accessories,https://boultaudio.com/collections/accessories,2025-09-08
+boat,category_1,true wireless earbuds,https://www.boat-lifestyle.com/collections/true-wireless-earbuds,9/30/2025
+boat,category_2,personalized products,https://www.boat-lifestyle.com/collections/product-personalization,9/30/2025
+boat,category_3,neckbands,https://www.boat-lifestyle.com/collections/wireless-earphones,9/30/2025
+boat,category_4,smartwatches,https://www.boat-lifestyle.com/collections/smart-watches,9/8/2025
+boat,category_5,wireless headphones,https://www.boat-lifestyle.com/collections/bluetooth-wireless-headphones,9/8/2025
+boat,category_6,wireless speakers,https://www.boat-lifestyle.com/collections/wireless-speakers,9/8/2025
+boat,category_7,wired headphones,https://www.boat-lifestyle.com/collections/wired-headphones,9/8/2025
+boat,category_8,wired earphones,https://www.boat-lifestyle.com/collections/wired-earphones,9/8/2025
+boat,category_9,sound bars,https://www.boat-lifestyle.com/collections/home-audio,9/8/2025
+boat,category_10,gaming series,https://www.boat-lifestyle.com/collections/immortal-gaming,9/8/2025
+boat,category_11,party speakers,https://www.boat-lifestyle.com/collections/party-speakers,9/8/2025
+boat,category_12,chargers,https://www.boat-lifestyle.com/collections/chargers,9/8/2025
+boat,category_13,power banks,https://www.boat-lifestyle.com/collections/power-banks,9/8/2025
+boat,category_14,cables,https://www.boat-lifestyle.com/collections/cables,9/8/2025
+boat,category_15,superhero collection,https://www.boat-lifestyle.com/collections/boat-super-sale,9/8/2025
+boat,category_16,trebel for women,https://www.boat-lifestyle.com/collections/trebel-for-women,9/8/2025
+boat,category_17,limited edition,https://www.boat-lifestyle.com/collections/limited-edition,9/8/2025
+boat,category_18,boat tag,https://www.boat-lifestyle.com/collections/ble-tracker,9/8/2025
+boat,category_19,mobile accessories,https://www.boat-lifestyle.com/collections/mobile-accessories,9/8/2025
+noise,category_1,master buds,https://www.gonoise.com/collections/wireless-earbuds,9/8/2025
+noise,category_2,smartwatches,https://www.gonoise.com/collections/smart-watches,9/8/2025
+noise,category_3,wireless audio,https://www.gonoise.com/collections/wireless-audio,9/8/2025
+noise,category_4,power series,https://www.gonoise.com/collections/noise-power-series-gan-chargers,9/8/2025
+boult,category_1,true wireless earbuds,https://boultaudio.com/collections/true-wireless-bluetooth-earbuds-with-mic,9/8/2025
+boult,category_2,boult x mustang,https://boultaudio.com/collections/boult-mustang,9/8/2025
+boult,category_3,headphones,https://boultaudio.com/collections/over-ear-bluetooth-headphone-with-mic,9/8/2025
+boult,category_4,speakers,https://boultaudio.com/collections/wireless-bluetooth-speaker,9/8/2025
+boult,category_5,home audio,https://boultaudio.com/collections/home-audio,9/8/2025
+boult,category_6,smart watches,https://boultaudio.com/collections/smart-watches,9/8/2025
+boult,category_7,power banks,https://boultaudio.com/collections/powerbanks,9/8/2025
+boult,category_8,dashcams,https://boultaudio.com/collections/dashcam,9/8/2025
+boult,category_9,neckbands,https://boultaudio.com/collections/neckband-in-ear-bluetooth-headphone-with-mic,9/8/2025
+boult,category_10,accessories,https://boultaudio.com/collections/accessories,9/8/2025
